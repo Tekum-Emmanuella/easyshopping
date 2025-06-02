@@ -7,7 +7,7 @@ export default defineConfig({
   server: {
     proxy: {
       // Whenever the frontend makes a request to '/api',
-      // Vite will redirect it to 'http://localhost:3000' (your backend)
+      // Vite will redirect it to 'http://localhost:3000' 
       '/api': 'http://localhost:3000',
     },
   },
